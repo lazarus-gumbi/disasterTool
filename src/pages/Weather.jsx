@@ -13,8 +13,9 @@ function Weather() {
         </div>
         <div className='h-3/4 flex items-center justify-evenly'>
             <WeatherCard temp = '25' date='24 Apr 2023' city='Mbabane' wind='27km/h' rain='32%' humidity='24%'/>
-            <WeatherCard/>
-            <WeatherCard/>
+            <WeatherCard temp = '25' date='24 Apr 2023' city='Mbabane' wind='27km/h' rain='32%' humidity='24%'/>
+            <WeatherCard temp = '25' date='24 Apr 2023' city='Mbabane' wind='27km/h' rain='32%' humidity='24%'/>
+            
         </div>
     </div>
   )
